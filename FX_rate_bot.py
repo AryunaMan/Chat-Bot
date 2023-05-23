@@ -86,12 +86,3 @@ def get_fx_rate(message):
 
 # Чтобы бот принимал сообщение:
 bot.polling(none_stop=True)
-
-
-
-
-
-# Убедимся, что все корректно работает и заставим отправлять полученное сообщение обратно:
-# @bot.message_handler(content_types=['text'])
-# def echo(message):
-#     bot.send_message(message.chat.id, text=f"{message.text}")
